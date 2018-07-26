@@ -6,7 +6,7 @@ How to install and test?
 
 Download or clone the repository
 
-$ git clone https://github.com/RainbowQuartz/projet_s4_mercredi_blog_des_familles.git
+$ git clone https://github.com/AniMoure/blog
 Run the command bundle install to install the necessary gems
 
 $ bundle install
