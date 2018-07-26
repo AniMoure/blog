@@ -1,30 +1,28 @@
-Ruby on Rails database - BLOG
-
-Ruby version: 2.5.1
-
-How to install and test?
-
-Download or clone the repository
-
-$ git clone https://github.com/AniMoure/blog
-Run the command bundle install to install the necessary gems
-
+# How to install and test?
+#### Download or clone the repository
+```sh
+$ git clone https://github.com/AniMoure/blog.git
+```
+#### Run the command to install the necessary gems
+```sh
 $ bundle install
-Update your database structure with the migration command.The database in not uploaded to github, so it is necessary tu run the differents migrations:
-
+```
+#### Update your database structure with the migration command: 
+```sh
 $ rails db:migrate
-Add data into your database with the seed file:
+```
 
+#### Generate data into your database:
+```sh
 $ rails db:seed
-Open the rails consol with rails consol command and check if datas have been created by using the following command:
+```
 
-User.all Article.all Category.all Comment.all Like.all
-Database structure:
+#### Clears the database and runs migration on a fresh database
+```sh
+$ rails db:migrate:reset
+```
 
-5 tables:
+#### Open the database in your DB Browser for SQLite and enjoy! 
 
-users
-articles
-categories
-likes
-comments
+
+**Free Database, Hell Yeah!**
